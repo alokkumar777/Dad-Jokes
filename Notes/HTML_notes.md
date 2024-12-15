@@ -14,5 +14,9 @@
 - [Using MDN as a Resource](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - Chrome Inspector
 
+## 2. Semantics
+- Block vs Inline Elements
+- Div 
+- Span
 
 
