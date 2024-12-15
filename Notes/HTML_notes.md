@@ -22,7 +22,7 @@
 - Br (Break) --> We were on break Right? 😅😅
 - Sub (Subscript) 
 - Sup (Superscript)
-- HTML ENTITIES 
+- HTML ENTITIES - Important for screen reader, SEO etc.
     - `main`
     - `header`
     - `section`
