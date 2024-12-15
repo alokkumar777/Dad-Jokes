@@ -1,8 +1,6 @@
 # Web-dev-Learning-Record
 
-## Here is readme markdown formate
-
-# Markdown Reference Notes
+## Markdown Reference Notes
 
 ## **1. Headers**
 ```markdown
