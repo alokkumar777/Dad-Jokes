@@ -1,6 +1,4 @@
-# Web-dev-Learning-Record
-
-## Markdown Reference Notes
+# Markdown Reference Notes
 
 ## **1. Headers**
 ```markdown
@@ -128,5 +126,86 @@ print("Hello, World!")
   <summary>Click to expand!</summary>
   Hidden content here.
 </details>
+```
 
+---
 
+## **14. Nesting Lists**
+```markdown
+1. Ordered Item 1
+    - Unordered Subitem 1
+    - Unordered Subitem 2
+2. Ordered Item 2
+```
+
+---
+
+## **15. Combining Markdown and HTML**
+```markdown
+<strong>Markdown with HTML</strong>
+```
+
+---
+
+## **16. GitHub-Specific Features**
+
+### Mentions and References
+```markdown
+@username, #123 (issue reference), or [PR #456](link)
+```
+
+### Autolinking URLs
+```markdown
+https://example.com
+```
+
+---
+
+## **17. Footnotes**
+```markdown
+Here is a sentence with a footnote.[^1]
+
+[^1]: This is the footnote content.
+```
+
+---
+
+## **18. Emojis**
+```markdown
+:smile: :+1: :rocket:
+```
+
+---
+
+## **19. Styling for Dark Mode**
+- Use transparent PNGs or SVGs for better compatibility with dark and light themes.
+
+---
+
+## **20. Advanced Table Customization**
+```markdown
+| Left-Aligned | Center-Aligned | Right-Aligned |
+|:-------------|:--------------:|--------------:|
+| Text         |    Text        |          Text |
+```
+
+---
+
+## **21. Markdown Linting**
+- Use tools like **markdownlint** (CLI or VS Code plugin) to ensure clean and standardized Markdown.
+
+---
+
+## **22. Comments in Markdown**
+```markdown
+<!-- This comment will not appear in the rendered Markdown -->
+```
+
+---
+
+## **23. Advanced Blockquote Nesting**
+```markdown
+> First level
+>> Second level
+>>> Third level
+```
