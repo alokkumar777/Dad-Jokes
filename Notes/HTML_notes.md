@@ -28,4 +28,8 @@
     - `section`
     - `nav`
     - `footer`
+    - `artical`
+    - `aside`
+    - `summary`
+    - `details`
 
