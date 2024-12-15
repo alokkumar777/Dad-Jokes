@@ -18,5 +18,14 @@
 - Block vs Inline Elements
 - Div 
 - Span
-
+- Hr (Horizontal)
+- Br (Break) --> We were on break Right? 😅😅
+- Sub (Subscript) 
+- Sup (Superscript)
+- HTML ENTITIES 
+    - `main`
+    - `header`
+    - `section`
+    - `nav`
+    - `footer`
 
