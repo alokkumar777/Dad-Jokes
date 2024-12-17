@@ -38,5 +38,9 @@
 - Td (table data)
 - Tr (table row)
 - Th (table head)
-
+- Thead
+- Tfoot
+- Tbody
+- Rowspan
+- Colspan
 
