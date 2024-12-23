@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marathon Form</title>
+  </head>
+  <body>
+    <form action="/marathod">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+      /><br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      /><br /><br />
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter your age"
+      /><br /><br />
+
+      <label for="distance">Distance:</label><br />
+      <input type="radio" id="5km" name="distance" value="5km" />
+      <label for="5km">5km</label><br />
+      <input
+        type="radio"
+        id="half-marathon"
+        name="distance"
+        value="half-marathon"
+      />
+      <label for="half-marathon">Half Marathon</label><br />
+      <input
+        type="radio"
+        id="full-marathon"
+        name="distance"
+        value="full-marathon"
+      />
+      <label for="full-marathon">Full Marathon</label><br /><br />
+      <button>Register!</button>
+    </form>
+  </body>
+</html>
