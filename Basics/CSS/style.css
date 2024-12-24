@@ -1,11 +1,27 @@
 h1 {
     color: blue;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
 p {
-    color: blue;
+    color: mintcream;
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.912);
+    background: rgb(33, 31, 31);
+    font-family:'Times New Roman', Times, serif
+}
+
+button {
+    background: #ff69b4;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
 }
