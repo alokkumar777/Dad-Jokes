@@ -6,3 +6,14 @@ h1, h2 {
     color: mediumaquamarine;
 }
 
+.post p {
+    color: mediumslateblue
+}
+
+p {
+    color: mediumseagreen;
+}
+
+h1 + p {
+    color: midnightblue;
+}
