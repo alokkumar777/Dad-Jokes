@@ -8,6 +8,15 @@
   - Direct child Selector (.container > p {...properties})
   - Attribute Selector 
 
+
 - Pseudo Classes
   - :active
-  
+  - :hover
+  - nth-of-type(2n)
+
+- Pseudo Elements
+  - ::after
+  - ::before
+  - ::first-letter
+
+
