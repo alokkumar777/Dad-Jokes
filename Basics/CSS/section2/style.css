@@ -10,6 +10,11 @@ h1, h2 {
     color: mediumslateblue
 }
 
+.post p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 p {
     color: mediumseagreen;
 }
