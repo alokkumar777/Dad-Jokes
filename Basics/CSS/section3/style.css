@@ -1,12 +1,16 @@
-section {
-    background-color: mediumaquamarine;
-    width: 500px;
-    height: 500px;
+div {
+    background: #e80000;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    transition: all 0.5s 0.5s ease-out;
 }
 
-/* div {
-    background-color: mediumblue;
-    width: 50%;
-    height: 50%;
-} */
+div:hover {
+    /* border-radius: 50%; */
+    width: 400px;
+    background: cyan;
+}
+
+
 

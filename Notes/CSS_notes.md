@@ -41,4 +41,11 @@
   - VW
   - AND MORE
 
-
+- Opacity & Alpha channel
+- Position
+  - Static
+  - Relative
+  - Absolute
+  - Fixed 
+  - Transition
+  - Transform
