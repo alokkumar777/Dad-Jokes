@@ -1,0 +1,3 @@
+[submodule "simon-game-project"]
+	path = simon-game-project
+	url = https://github.com/alokkumar777/simon-game-project.git
