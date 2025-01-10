@@ -49,3 +49,7 @@
   - Fixed 
   - Transition
   - Transform
+    - Rotate()
+    - Scale()
+    - Translate()
+    
