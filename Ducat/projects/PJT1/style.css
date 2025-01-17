@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ======================= NAV-BAR ======================= */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 1rem 2rem;
+  background-color: #222;
+  position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  box-shadow: 0px 2px 10px #212529;
+  z-index: 1;
+}
+
+.nav-bar .brand,
+.nav-bar .nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-bar .brand {
+  font-size: 1.5rem;
+}
+
+.nav-bar .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-bar .nav-links a {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar .nav-links a:hover {
+  background-color: #343a40;
+  border-radius: 5px;
+}
+
+/* ========================== MAIN-IMG===================== */
+.main-img img {
+  width: 100%;
+  max-height: 100vh;
+  height: auto;
+  object-fit: cover;
+}
+
+/* =================== SAME STYING FOR EACH SECTION ==================== */
+.container {
+  margin: 1rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.section-img img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  /* box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3), inset 0 -2px 4px rgba(0, 0, 0, 0.1); */
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.8));
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  /* filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2)) drop-shadow(0 -2px 4px rgba(0, 0, 0, 0.1)); */
+}
+
+.section-txt {
+  text-align: center;
+  flex: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  /* text-align: justify; */
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #212529;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-top: 1rem;
+  background-color: #e9ecef;
+}
+
+/* ================ ACCORDING TO NEED ================ */
+
+.mb {
+  margin-bottom: 4rem;
+}
+
+.mt {
+  margin-top: 4rem;
+}
+
+#about .section-txt p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1rem;
+  /* text-align: center; */
+}
+
+#menu .section-txt li {
+  font-size: 1.3rem;
+  color: #444;
+  margin: 1rem 0 0.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.4rem;
+}
+
+/* ===================== FOOTER ====================== */
+.footer {
+  background-color: #222; /* Dark background */
+  color: #fff; /* Light text */
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Wrap content for smaller screens */
+  gap: 2rem; /* Add spacing between items */
+  max-width: 1200px;
+  margin: 0 auto; /* Center align */
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1; /* Equal space for each column */
+  min-width: 250px; /* Prevent shrinking too much */
+}
+
+.footer-about h3,
+.footer-links h3,
+.footer-contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer-about p,
+.footer-contact p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f7a600; /* Highlight color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #444; /* Subtle divider line */
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}

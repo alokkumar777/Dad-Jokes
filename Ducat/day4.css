@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+    outline: 10px ridge #ff4;
+    padding: 1rem;
+    margin: 2em;
+    border-radius: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+p:hover {
+    outline-color: #f09;
+    transform: scale(1.1);
+
+}
+
+
+
