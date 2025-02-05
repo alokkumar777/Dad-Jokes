@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-midnight-blue: #0d1b2a;
+  --deep-twilight: #1b263b;
+  --steel-blue: #415a77;
+  --powder-blue: #778da9;
+  --eggshell: #e0e1dd;
+}
+
+header {
+  background: var(--dark-midnight-blue);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+  height: 110vh;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+/* ======================CONTAINER================== */
+.container {
+  max-width: 75rem; /* 1200px to 75rem */
+  margin: 0 auto;
+  padding: 0 1.25rem; /* 20px to 1.25rem */
+}
+
+.mb {
+  margin-bottom: 5%;
+}
+
+/* ==========================NAVBAR==================== */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-midnight-blue);
+  padding: 2rem 0;
+  color: var(--eggshell);
+}
+
+/* ======================NAV LEFT=================== */
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left span {
+  font-size: 2rem;
+}
+.navbar-left span i {
+  font-size: 3rem;
+}
+
+/* ==========================NAV CENTER================== */
+
+.navbar-center {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: var(--eggshell);
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-center a:hover {
+  color: var(--powder-blue);
+}
+
+/* ============================NAV RIGHT=================== */
+
+.navbar-right button {
+  background-color: var(--powder-blue);
+  color: var(--eggshell);
+  border: none;
+  padding: 1.1rem 3rem;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.navbar-right button:hover {
+  background-color: var(--steel-blue);
+}
+
+/* =====================HERO HOME SECTION======================= */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.125rem; /* 50px to 3.125rem */
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.625rem; /* 10px to 0.625rem */
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h6 {
+  font-size: 1.8rem;
+  font-weight:600;
+  color: var(--powder-blue);
+  margin-bottom: 0.625rem; /* 10px to 0.625rem */
+  /* letter-spacing: 0.20rem; */
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  color: var(--eggshell);
+  margin: 0.625rem 0; /* 10px to 0.625rem */
+  font-weight: normal;
+}
+
+.hero-text h1 span {
+  color: var(--powder-blue);
+}
+
+.hero-text p {
+  font-size: 1.125rem; /* 18px to 1.125rem */
+  color: var(--eggshell);
+  margin-bottom: 1.25rem; /* 20px to 1.25rem */
+  line-height: 1.8rem;
+}
+
+.hero-text button {
+  background: none;
+  color: var(--powder-blue);
+  border: 0.15rem solid var(--powder-blue);
+  padding: 1.2rem 2rem;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.10rem;
+}
+
+.hero-text button:hover {
+  background-color: var(--powder-blue);
+  color: var(--eggshell);
+}
+
+/* =========================ABOUT==================== */
+
+
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  /* margin-right: 80px; */
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-text h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.about-text h3 span {
+  color: var(--powder-blue);
+}
+
+.about-text p {
+  font-size: 18px;
+  color: var(--dark-midnight-blue);
+  margin-bottom: 20px;
+}
+
+.about-text p:nth-of-type(2) {
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+.about-text .social-links {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.about-text .social-links a {
+  text-decoration: none;
+  color: var(--dark-midnight-blue);
+  font-size: 1.7rem;
+  transition: color 0.3s ease;
+  /* margin-right: 0.5rem; */
+}
