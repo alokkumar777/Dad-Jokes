@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --dark-midnight-blue: #0d1b2a;
   --deep-twilight: #1b263b;
@@ -33,6 +37,9 @@ header {
 .mb {
   margin-bottom: 5%;
 }
+.mt {
+  margin-top: 5%;
+}
 
 .navbar {
   display: flex;
@@ -59,7 +66,7 @@ header {
   color: var(--eggshell);
   font-size: 1.3rem;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 
 .navbar-center a:hover {
@@ -73,7 +80,7 @@ button {
   font-size: 1.1rem;
   padding: 1.1rem 2rem;
   text-transform: uppercase;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .navbar-right button {
@@ -186,5 +193,89 @@ img {
   color: var(--dark-midnight-blue);
   font-size: 1.7rem;
   text-decoration: none;
-  transition: color 0.3s ease;
+}
+
+/* services */
+#services {
+  background: #e0e1dd4c;
+}
+
+.services {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.services h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.services h2 span {
+  color: var(--powder-blue);
+}
+
+.services p {
+  font-size: 18px;
+  color: var(--dark-midnight-blue);
+  margin-bottom: 40px;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  color: var(--dark-midnight-blue);
+  background-color: #f9f9f9;
+  padding: 3rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  text-align: center;
+  position: relative;
+  margin: 30px 0px 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.service-card:hover {
+  background-color: var(--dark-midnight-blue);
+  color: var(--eggshell);
+}
+
+.service-card:hover p {
+  color: var(--powder-blue);
+}
+
+.service-card img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid var(--powder-blue);
+  object-fit: cover;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 40px 0 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.service-card:hover h3 {
+  color: var(--powder-blue);
+}
+
+.service-card p {
+  font-size: 16px;
+  color: var(--dark-midnight-blue);
+  transition: color 0.2s ease-in-out;
 }
