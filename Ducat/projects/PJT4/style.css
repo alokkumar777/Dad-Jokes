@@ -28,6 +28,7 @@ header {
   height: 110vh;
 }
 
+/* universal property */
 .container {
   max-width: 75rem;
   margin: 0 auto;
@@ -41,6 +42,7 @@ header {
   margin-top: 5%;
 }
 
+/* nav bar styling */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -195,9 +197,10 @@ img {
   text-decoration: none;
 }
 
-/* services */
+/* services section */
 #services {
   background: #e0e1dd4c;
+  padding-bottom: 2rem;
 }
 
 .services {
@@ -278,4 +281,9 @@ img {
   font-size: 16px;
   color: var(--dark-midnight-blue);
   transition: color 0.2s ease-in-out;
+}
+
+#available {
+  
+
 }
