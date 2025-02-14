@@ -1,0 +1,35 @@
+.box1 {
+  background: #1c3144;
+}
+.box2 {
+  background: #d00000;
+}
+.box3 {
+  background: #ffba08;
+}
+.box4 {
+  background: #a2aebb;
+}
+.box5 {
+  background: #3f88c5;
+}
+
+#container {
+  background: #023618;
+  margin: 0 auto;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:end;
+  /* flex-wrap: wrap-reverse; */
+  /* margin-top: 100%; */
+
+}
+
+#container div {
+  width: 150px;
+  height: 150px;
+  /* margin-top: 100%;  */
+}

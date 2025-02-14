@@ -52,5 +52,13 @@
     - Rotate()
     - Scale()
     - Translate()
-    
-    
+  
+- Flex 
+  - Align-item
+  - Justify-content
+  - Align-self
+  - Flex-wrap
+  - Flex-direction
+
+
+
