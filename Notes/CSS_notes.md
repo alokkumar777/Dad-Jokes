@@ -54,11 +54,16 @@
     - Translate()
   
 - Flex 
+  - Display
   - Align-item
   - Justify-content
   - Align-self
   - Flex-wrap
   - Flex-direction
+  - Flex-basis
+  - Flex-grow
+  - Flex-shrink
+
 
 
 
