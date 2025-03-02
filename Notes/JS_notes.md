@@ -16,5 +16,26 @@
 - Nesting Conditions
 - Logical Operator (&&, ||, !)
 - Switch Case
+<!-- Data Structure -->
+- Array (About everything)
+    - Array is the ordered collection of values.
+    - Array methods
+    - push(), pop(), shift(), unshift() 
+    - concat(), indexOf(), includes(), slice(), splice()
+
+
+
+
+<!-- Done by self -->
+Pieces Of Topics -
+- Spread
+- Keys, Values, Entries
+- forEach(callback), map(callback), filter(callback)
+- Array Constructor --> Array()
+- Array literal --> []
+- Static methods
+    - Array.from(),
+    - Array.to(),
+    - Array.isArray()
 
 
