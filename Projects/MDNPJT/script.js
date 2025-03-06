@@ -1,11 +1,25 @@
-const btn = document.querySelector('button');
+// function isArmstrongNumber(num) {
+let sum = 0;
+let temp = num;
+const numberOfDigits = num.toString().length;
 
-function greet() {
-  const name = prompt('Enter your name');
-  const greeting = document.querySelector('h1');
-
-  greeting.textContent = `Hello ${name}! Nice to meet you.`
+while (temp > 0) {
+  let digit = temp % 10;
+  sum += Math.pow(digit, numberOfDigits);
+  temp = Math.floor(temp / 10);
 }
 
-btn.addEventListener('click', greet);
+const number = 153;
+
+
+// return sum === num;
+// }
+
+// const number = 144;
+// if (isArmstrongNumber(number)) {
+//   console.log(`${number} is an Armstrong number.`);
+// } else {
+//   console.log(`${number} is not an Armstrong number.`);
+// }
+
 

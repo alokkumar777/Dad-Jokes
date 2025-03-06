@@ -22,8 +22,12 @@
     - Array methods
     - push(), pop(), shift(), unshift() 
     - concat(), indexOf(), includes(), slice(), splice()
-
-
+- Object 
+    - Key : Value pairs
+    - access, update, add
+    - Array + Object
+_ Loops
+    - for loop
 
 
 <!-- Done by self -->
