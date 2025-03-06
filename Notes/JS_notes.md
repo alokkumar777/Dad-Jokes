@@ -24,8 +24,8 @@
     - concat(), indexOf(), includes(), slice(), splice()
 - Object 
     - Key : Value pairs
-    - access, update, add
-    - Array + Object
+    - access, update, add, delete
+    - Array + Object 
 _ Loops
     - for loop
 
