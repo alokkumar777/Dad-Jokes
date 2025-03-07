@@ -1,3 +1,6 @@
 [submodule "simon-game-project"]
 	path = simon-game-project
 	url = https://github.com/alokkumar777/simon-game-project.git
+[submodule "Projects/clone/Projects/clone/to-do-list"]
+	path = Projects/clone/Projects/clone/to-do-list
+	url = https://github.com/alokkumar777/to-do-list.git
