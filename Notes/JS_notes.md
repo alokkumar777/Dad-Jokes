@@ -28,6 +28,8 @@
     - Array + Object 
 _ Loops
     - for loop
+    - while loop
+    - break
 
 
 <!-- Done by self -->
