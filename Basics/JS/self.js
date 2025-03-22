@@ -1,7 +1,7 @@
 function newConnections() {
   let newConn = [
-    ["Guddu", "Alisha", "Lakshay", "Vidya"],
-    ["Jai", "Kalyani", "Mannan", "Naina", "Pragya"],
+    ["G", "A", "L", "V"],
+    ["J", "K", "M", "N", "P"],
   ];
 
   for (let row of newConn) {
@@ -15,6 +15,7 @@ function newConnections() {
 
 // calling
 newConnections();
-console.log(row)
+
+
 
 
