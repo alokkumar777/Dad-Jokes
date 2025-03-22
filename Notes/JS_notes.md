@@ -30,6 +30,7 @@ _ Loops
     - for loop
     - while loop
     - break
+    - for...of
 
 
 <!-- Done by self -->
