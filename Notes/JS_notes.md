@@ -31,6 +31,7 @@ _ Loops
     - while loop
     - break
     - for...of
+    - for...in (use case with object)
 
 
 <!-- Done by self -->
