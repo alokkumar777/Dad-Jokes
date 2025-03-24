@@ -26,12 +26,15 @@
     - Key : Value pairs
     - access, update, add, delete
     - Array + Object 
-_ Loops
+- Loops
     - for loop
     - while loop
     - break
     - for...of
     - for...in (use case with object)
+- Function
+    - Define
+    - Arguments
 
 
 <!-- Done by self -->
