@@ -33,13 +33,17 @@
     - for...of
     - for...in (use case with object)
 - Function 
-    - define
+    - function definition --> [can call before declaration]
     - arguments
     - scope of a function
         - local
         - global
-    - block scope
+    - block scope --> [let, const are block but not var]
     - lexical scope
+    - function expression --> [can't call before initialization]
+    - higher order function
+
+
 
 
 
