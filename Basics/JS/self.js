@@ -5,6 +5,7 @@
 // hoisting in JS
 
 // lexical scope
+// ----------------------------------------------------------------
 
 // function definition
 // myDeclare();
@@ -20,6 +21,9 @@
 
 // myExpress();
 
+// ----------------------------------------------------------------
+
+
 //! higher order function
 //* A function taking another function as argument
 //? Example
@@ -34,6 +38,9 @@
 
 // cookPizza('Pepperoni', serverPizza);
 
+// ----------------------------------------------------------------
+
+
 //* A function returns a function
 //? Example
 // function deliveryGuy(name) {
@@ -45,3 +52,6 @@
 // const john = deliveryGuy("John");
 // console.log(john);
 // john("Margherita");
+
+// ----------------------------------------------------------------
+
