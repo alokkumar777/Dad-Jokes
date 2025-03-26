@@ -32,21 +32,14 @@
     - break
     - for...of
     - for...in (use case with object)
-- Function
-    - Define
-    - Arguments
+- Function 
+    - define
+    - arguments
+    - scope of a function
+        - local
+        - global
+    - block scope
+    - lexical scope
 
-
-<!-- Done by self -->
-Pieces Of Topics -
-- Spread
-- Keys, Values, Entries
-- forEach(callback), map(callback), filter(callback)
-- Array Constructor --> Array()
-- Array literal --> []
-- Static methods
-    - Array.from(),
-    - Array.to(),
-    - Array.isArray()
 
 
