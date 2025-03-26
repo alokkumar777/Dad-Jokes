@@ -20,19 +20,28 @@
 
 // myExpress();
 
-// !higher order function
-// *A function taking another function as argument
-// ?Example
-function cookPizza(order, callback) {
-    console.log(`Cooking ${order}`);
-    callback()
-}
+//! higher order function
+//* A function taking another function as argument
+//? Example
+// function cookPizza(order, callback) {
+//     console.log(`Cooking ${order}`);
+//     callback()
+// }
 
-function serverPizza() {
-    console.log(`Order is ready!`);
-}
+// function serverPizza() {
+//     console.log(`Order is ready!`);
+// }
 
-cookPizza('Pepperoni', serverPizza);
+// cookPizza('Pepperoni', serverPizza);
 
+//* A function returns a function
+//? Example
+// function deliveryGuy(name) {
+//   return function (order) {
+//     console.log(`${name} is deliver your ${order}`);
+//   };
+// }
 
-
+// const john = deliveryGuy("John");
+// console.log(john);
+// john("Margherita");
