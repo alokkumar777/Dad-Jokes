@@ -41,8 +41,10 @@
     - block scope --> [let, const are block but not var]
     - lexical scope
     - function expression --> [can't call before initialization]
-    - higher order function
-
+    - higher order function --> very useful when it comes to reuseablity
+    - methods
+    - this keyword
+    - try-catch
 
 
 

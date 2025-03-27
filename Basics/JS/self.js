@@ -50,8 +50,19 @@
 // }
 
 // const john = deliveryGuy("John");
-// console.log(john);
 // john("Margherita");
 
 // ----------------------------------------------------------------
+// let name = 'Fake name';
+// const obj = {
+//     name: 'Itsak',
+//     age: 21,
+//     greet: function() {
+//         console.log(this.name);
+//         console.log(this)
+//     }
+// }
+
+
+
 
