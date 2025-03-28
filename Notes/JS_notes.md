@@ -45,7 +45,12 @@
     - methods
     - this keyword
     - try-catch
-
-
+- Array callback methods
+    - forEach
+    - map
+    - filter
+    - some & every
+    - arrow function
+    - reduce
 
 
