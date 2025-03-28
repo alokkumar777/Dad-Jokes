@@ -52,5 +52,7 @@
     - some & every
     - arrow function
     - reduce
+- setTiemout and setInterval
+
 
 

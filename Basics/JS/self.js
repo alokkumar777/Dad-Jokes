@@ -57,12 +57,31 @@ const movies = [
 //     }
 // })
 
-let updateRating = movies.map((movie) => {
-  return {
-    title: movie.title,
-    rating: `${movie.rating} out of 10`,
-  };
-});
+// let updateRating = movies.map((movie) => {
+//   return {
+//     title: movie.title,
+//     rating: `${movie.rating} out of 10`,
+//   };
+// });
 
-console.log(updateRating);
+// console.log(updateRating);
 // console.log(movies);
+
+// var sqr = function(x) {
+//   return x * x;
+// }
+
+// function sqr(x) {
+//   return x * x;
+// }
+
+// setTimeout
+console.log("YaaaHuuuu");
+
+setTimeout(() => {
+  console.log('Hey')
+}, 5000);
+
+console.log("Huurraaaa");
+
+
