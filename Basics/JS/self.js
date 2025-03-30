@@ -2,12 +2,22 @@
 
 const numberArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let powerOfNumberArr = numberArr.map(function (num) {
-  return num ** 2;
-});
 
-console.log(numberArr);
-console.log(powerOfNumberArr);
+console.log(numberArr.some(num => num >= 5));
+
+// let powerOfNumberArr = numberArr.map(function (num) {
+//   return num ** 2;
+// });
+
+// console.log(numberArr);
+// console.log(powerOfNumberArr);
+
+// let newArr = numberArr.filter(n => {
+//   return n < 5;
+// })
+// console.log(newArr);
+
+
 
 // numberArr.forEach(function (el) {
 //   if (el % 2 == 0) {
@@ -76,12 +86,7 @@ const movies = [
 // }
 
 // setTimeout
-console.log("YaaaHuuuu");
 
-setTimeout(() => {
-  console.log('Hey')
-}, 5000);
 
-console.log("Huurraaaa");
-
+// filter
 
