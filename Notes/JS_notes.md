@@ -49,7 +49,7 @@
     - forEach
     - map
     - filter
-    - some & every
+    - some & every 
     - arrow function
     - reduce
 - setTiemout and setInterval
