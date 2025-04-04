@@ -21,4 +21,11 @@ p {
 
 h1 + p {
     color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
 }
+
+a:visited {
+    
+}
+
