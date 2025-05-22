@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping-Pong</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container text-center">
+      <!-- scores display -->
+      <div class="display-3" id="score-card">
+        <span class="left-score">0</span> to <span class="right-score">0</span>
+      </div>
+
+      Game of ? 
+      <select name="" id="my-select" class="form-select mt-2" style="width: 20%; margin: 0 auto;">
+        <option value="select nothing">Select the Game</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <!-- buttons -->  
+      <div class="buttons-set mt-4">
+        <button class="btn btn-primary" id="btn1">+1 Player1</button>
+        <button class="btn btn-danger" id="btn2">+1 Player2</button>
+        <button class="btn btn-warning" id="btn3">Reset Score</button>
+      </div>
+    </div>
+
+    <!-- Bootstrap SCRIPT CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom script -->
+     <script src="app.js"></script>
+  </body>
+</html>
