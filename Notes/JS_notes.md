@@ -63,37 +63,37 @@
 - Window
 - Document
 - Selecting
-  -- getElementById()
-  -- getElementByTagName()
-  -- getElementyClassName()
-  -- querySelector() -> select only first
-  -- querySelectorAll()
-  -- selection by attribute also possible
-  -- innerHTML, innerText, textContent
-  -- getAttribute()
-  -- setAttribute()
-  -- style
-  -- classList (add, remove, contains, toggle)
-  -- parentElement
-  -- children
-  -- nextSibling
-  -- previousSibling
-  -- createElement()
-  -- appendChild()
-  -- append
-  -- prepend
-  -- insertAdjacentElement()
-  -- remove()
+  - getElementById()
+  - getElementByTagName()
+  - getElementyClassName()
+  - querySelector() -> select only first
+  - querySelectorAll()
+  - selection by attribute also possible
+  - innerHTML, innerText, textContent
+  - setAttribute()
+  - getAttribute()
+  - style
+  - classList (add, remove, contains, toggle)
+  - parentElement
+  - children
+  - nextSibling
+  - previousSibling
+  - createElement()
+  - appendChild()
+  - append
+  - prepend
+  - insertAdjacentElement()
+  - remove()
 
 - *PART-2*
--- onclick()
--- addEventListener
--- this with event
--- event object
--- preventDefault()
--- Input, Change event
--- Event Bubbling
--- Event Delegation
+  - onclick()
+  - addEventListener
+  - this with event
+  - event object
+  - preventDefault()
+  - Input, Change event
+  - Event Bubbling
+  - Event Delegation
 
 
 
