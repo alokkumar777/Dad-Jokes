@@ -1,4 +1,4 @@
-const scoreCard = document.getElementById("score-card");
+// const scoreCard = document.getElementById("score-card");
 const playerOneScore = document.querySelector(".left-score");
 const playerTwoScore = document.querySelector(".right-score");
 const playerOneBtn = document.getElementById("btn1");
