@@ -1,4 +1,8 @@
-Ducat/
-Mentor/
+Ducat
+Mentor
 __MACOSX/
-Projects/
+Projects
+
+node_modules
+package-lock.json
+# Backend

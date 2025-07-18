@@ -95,5 +95,13 @@
   - Event Bubbling
   - Event Delegation
 
+- Async JavaScript
+  - Understand call stack
+  - WebAPIs and single threaded
+  - Callback Hell
+  - Promise
+  - async/await
+
+
 
 

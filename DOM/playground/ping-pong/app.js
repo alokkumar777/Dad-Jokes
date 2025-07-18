@@ -50,3 +50,8 @@ resetBtn.addEventListener("click", () => {
   playerOneScore.classList.remove("text-success", "text-danger");
   playerTwoScore.classList.remove("text-success", "text-danger");
 });
+
+
+const greet = function (a, b) {
+  //logic
+}
