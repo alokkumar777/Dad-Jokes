@@ -1,8 +1,20 @@
 const express = require("express");
 const path = require("path");
+const avengersData = require("./data/data.json");
 
 const app = express();
 const PORT = 3000;
+
+// Serve static files from node_modules
+app.use(express.static("public"));
+
+
+// pattern search
+app.get("/search/:query", (req, res) => {
+  const { query } = req.params;
+  const data = avengersData[query];
+  res.render("avengers", {...data, query });
+});
 
 // ejs template engine
 app.set("view engine", "ejs");
@@ -18,11 +30,6 @@ app.get("/random", (req, res) => {
   res.render("random", { randomNum });
 });
 
-// pattern search
-app.get("/search/:query", (req, res) => {
-    const { query } = req.params;
-    res.render("search", { query });
-});
 
 // Start server
 app.listen(PORT, () => {

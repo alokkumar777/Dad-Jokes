@@ -6,3 +6,4 @@ Projects
 node_modules
 package-lock.json
 # Backend
+node-group-chat

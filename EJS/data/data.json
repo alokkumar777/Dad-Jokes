@@ -1,0 +1,80 @@
+{
+  "Spider Man": {
+    "realName": "Peter Parker",
+    "affiliation": "Avengers",
+    "firstAppearance": "Amazing Fantasy #15",
+    "origin": "Bitten by a radioactive spider",
+    "img": "https://upload.wikimedia.org/wikipedia/en/b/bf/Tobey_Maguire_as_Spider-Man.jpg",
+    "powers": [
+      "Superhuman strength",
+      "Wall-crawling",
+      "Spider-sense",
+      "Agility"
+    ]
+  },
+  "Iron Man": {
+    "realName": "Tony Stark",
+    "affiliation": "Avengers",
+    "firstAppearance": "Tales of Suspense #39",
+    "origin": "Built suit to escape captivity",
+    "img": "https://m.media-amazon.com/images/I/51wbiG0Z+7L._UF1000,1000_QL80_.jpg",
+    "powers": [
+      "Genius intellect",
+      "Powered armor suit",
+      "Flight",
+      "Energy blasts"
+    ]
+  },
+  "Captain America": {
+    "realName": "Steve Rogers",
+    "affiliation": "Avengers",
+    "firstAppearance": "Captain America Comics #1",
+    "origin": "Super soldier serum",
+    "img": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b7/Steve_Rogers_Infobox.jpg/revision/latest?cb=20231025163634",
+    "powers": [
+      "Superhuman strength",
+      "Enhanced agility",
+      "Expert tactician",
+      "Vibranium shield"
+    ]
+  },
+  "Thor": {
+    "realName": "Thor Odinson",
+    "affiliation": "Avengers",
+    "firstAppearance": "Journey into Mystery #83",
+    "origin": "Asgardian god",
+    "img": "https://i.pinimg.com/736x/f7/0f/61/f70f610e5e62c30096f3f7f43d9adf7b.jpg",
+    "powers": [
+      "God of Thunder",
+      "Superhuman strength",
+      "Control over lightning",
+      "Mjolnir wielding"
+    ]
+  },
+  "Black Widow": {
+    "realName": "Natasha Romanoff",
+    "affiliation": "Avengers",
+    "firstAppearance": "Tales of Suspense #52",
+    "origin": "Former Russian spy",
+    "img": "https://s3.r29static.com/bin/entry/8a8/x,80/2169999/image.jpg",
+    "powers": [
+      "Expert martial artist",
+      "Espionage",
+      "Marksmanship",
+      "Enhanced agility"
+    ]
+  },
+  "Hulk": {
+    "realName": "Bruce Banner",
+    "affiliation": "Avengers",
+    "firstAppearance": "The Incredible Hulk #1",
+    "origin": "Gamma radiation exposure",
+    "img": "https://m.media-amazon.com/images/I/91rgfRwOHnL._UF1000,1000_QL80_.jpg",
+    "powers": [
+      "Superhuman strength",
+      "Regeneration",
+      "Invulnerability",
+      "Transformation"
+    ]
+  }
+}

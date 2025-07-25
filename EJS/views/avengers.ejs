@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= realName %> - Avenger Profile</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .hero-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 600px;
+            width: 100%;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-header {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-header .real-name {
+            font-size: 1.2em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 5px solid #ff6b6b;
+        }
+
+        .hero-details {
+            padding: 30px;
+        }
+
+        .detail-section {
+            margin-bottom: 25px;
+        }
+
+        .detail-label {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .detail-value {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .affiliation-badge {
+            background: #4ecdc4;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .powers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .power-item {
+            background: linear-gradient(45deg, #ff9a9e, #fecfef);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: #333;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .power-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .comic-reference {
+            background: #f8f9fa;
+            border-left: 4px solid #ff6b6b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .hero-header h1 {
+                font-size: 2em;
+            }
+            
+            .powers-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style> -->
+  </head>
+  <body>
+    <div class="my-3 mx-auto text-center">
+      <!-- Hero Header -->
+      <div>
+        <h1 class="display-1"><%= query %></h1>
+        <div class="mb-2"><%= realName %></div>
+      </div>
+
+      <!-- Hero Image -->
+      <img
+      class="rounded-4"
+        src="<%= img %>"
+        alt="<%= realName %>"
+        style="width: 200px"
+      />
+
+      <!-- Hero Details -->
+      <div>
+        <!-- Affiliation -->
+        <div>
+          <span>Affiliation:</span>
+          <span><%= affiliation %></span>
+        </div>
+
+        <!-- Origin Story -->
+        <div>
+          <span>Origin Story:</span>
+          <div><%= origin %></div>
+        </div>
+
+        <!-- First Appearance -->
+        <div>
+          <span>First Appearance:</span>
+          <div><%= firstAppearance %></div>
+        </div>
+
+        <!-- Powers -->
+        <div>
+          <span>Powers & Abilities:</span>
+          <div>
+            <% powers.forEach(power => { %>
+            <div><%= power %></div>
+            <% }) %>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div>
+        <p>🕷️ With great power comes great responsibility 🕷️</p>
+      </div>
+    </div>
+  </body>
+</html>
