@@ -1,0 +1,46 @@
+-- MongoDB
+# WHY USE DATABASE?
+    - use to store, organize, and manage large amount of data.
+-- 
+# SQL v/s NoSQL
+--
+# Mongo shell - interactive CLI for working with mongoDB databases.
+
+# BSON v/s JSON
+- JSON is human readable notes and BSON is machine-readable version of the same note.
+
+# What is Collections
+- group of the documents (unit of data or a single record)
+
+# CRUD METHODS
+-- CREATE
+- InsertOne(), InsertMany()
+-- READ
+- Find()
+
+-----------------------------
+- Mongoose? -> Use to interact with MongoDB databases.
+-- ODM? -> Object Data Modeling
+-- Schema
+-- Model
+# CRUD USING MONGOOSE
+------------------------------------------------
+-- InsertMany with Mongoose
+-- findById()
+-- updateOne() -> update only first match
+-- updateMany() -> update all matches
+-- findOneAndUpdate()
+-- deleteOne()
+-- deleteMany()
+-- findOneAndDelete()
+-- Mongoose Schema Validation
+-- Schema Type or Constraints
+-- runValidator
+-- Custom validator msg
+-- Custom methods
+    - Instance methods
+    - Static methods
+    - Virtual
+-- Mongoose Middleware
+    - pre
+    - post

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Tic-Tac-Toe</h1>
+
+      <div class="game-header">
+        <div class="logo">XO</div>
+        <div id="status">Turn: Player X</div>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="board">
+        <button class="cell" data-index="0" aria-label="Cell 1"></button>
+        <button class="cell" data-index="1" aria-label="Cell 2"></button>
+        <button class="cell" data-index="2" aria-label="Cell 3"></button>
+        <button class="cell" data-index="3" aria-label="Cell 4"></button>
+        <button class="cell" data-index="4" aria-label="Cell 5"></button>
+        <button class="cell" data-index="5" aria-label="Cell 6"></button>
+        <button class="cell" data-index="6" aria-label="Cell 7"></button>
+        <button class="cell" data-index="7" aria-label="Cell 8"></button>
+        <button class="cell" data-index="8" aria-label="Cell 9"></button>
+      </div>
+
+      <div class="score-section">
+        <div class="score-item" id="x-score">
+          <div>Player X</div>
+          <div class="score-value">0</div>
+        </div>
+        <div class="score-item" id="draw-score">
+          <div>Draws</div>
+          <div class="score-value">0</div>
+        </div>
+        <div class="score-item" id="o-score">
+          <div>Player O</div>
+          <div class="score-value">0</div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div id="total-games">Total Games: 0</div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
