@@ -19,9 +19,11 @@
       <div>
         <label for="category">Category:</label>
         <select id="category" name="category" required>
-          <option value="fruits">Fruits</option>
-          <option value="vegetable">Vegetables</option>
-          <option value="dairy">Dairy</option>
+          <% categories.forEach(cat => { %>
+            <option value="<%= cat %>" <%= product.category === cat ? "selected" : "" %>>
+              <%= cat %>
+            </option>
+          <% }) %>
         </select>
       </div>
       <button type="submit">Update Product</button>
